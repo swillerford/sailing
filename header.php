@@ -42,3 +42,4 @@
 			</a>
 		</div><!-- main_nav -->
 	</div><!-- header -->
+	<img id="banner" src="<?php bloginfo("stylesheet_directory"); ?>/img/regatta_team.png"">

@@ -565,18 +565,21 @@ body.fp-body {
 
 /* Site structure */
 
+body{
+	margin-left: auto;
+	margin-right: auto;
+}
 #header {
 	height: 60px;
 	margin-top:25px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom: 20px;
 	background-color: rgb(36,23,17)
 }
 #logo{
 	margin-top: 10px;
 	float: left;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 #main_nav {
 	float: right;
@@ -595,59 +598,11 @@ body.fp-body {
 	margin-right: 0;
 	border-right: none;
 }
+#banner{
+}
 
-/* Slideshow */
-#slideshow {
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:20px;
-	margin-bottom: 30px;
-	width: 903px;
-	padding: 5px;
-	height: 280px;
-	border: 1pt solid rgb(168, 159, 143); 
-	background-color: white;
-	background-image: url('img/home.png');
-	background-repeat: no-repeat;
-	background-position: center center;
-	
-	box-shadow: 3px 3px 4px #333;
-}
-#slideshow_footer{
-	height: 25px;
-	position: relative;
-	top: 255px;
-}
-#slideshow_footer_bar {
-	background: rgba(0,0,0,.5);
-	z-index: 0
-	position:absolute;
-	padding: 2px 4px;
-}
-#slideshow_footer div.left {
-	z-index: 10;
-	float: left;
-	color: white;
-	padding: 0px 4px;
-	display: inline-block;
-}
-#slideshow_footer div.right{
-	z-index: 10;
-	float: right;
-	color: white;
-	padding: 0px 4px;
-	display: inline-block;
-	text-decoration: none;
-}
-#slideshow_footer div.right a:link, 
-#slideshow_footer div.right a:visited {
-	color: white;
-	text-decoration: none;
-}
-#slideshow_footer div.right a:hover {
-	text-decoration: underline;
-}
-/* DA LOOP */
+
+/* Loop */
 #loop_header {
 	margin-left: 120px;
 }
@@ -694,398 +649,33 @@ body.fp-body {
     text-decoration:underline;
 }
 /* The Sidebar */
-#sidebar{
-	float: right;
-	width: 200px;
-	margin-right: 0px;
-	border-top-style: solid;
-	border-top-width: 1px;
-	border-top-color: gray;
-	margin-top: 67px;
+.sidebar{
+	float: left;
+	width: 250px;
+	margin-right: 15px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: gray;
+	margin-top: 15px;
 	padding-top: 15px;
-	margin-left: 15px;
+	margin-left: 0px;
 }
-#sidebar p{
-	margin-top:0px;
-	font-size: 0.9em;
+.sidebar ul{
+	list-style-type: none;
+	margin-left: none;
 }
-#sidebar h4{
-	margin-bottom: 5px;
+.sidebar li{
+	text-decoration: none;
+	background-color: blue;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
 }
-#s {
-	margin: 4px 0;
-	box-shadow: 0;
-	border: 1pt solid hsl(38, 13%, 61%);
-	padding: 3px;
-	width: 190px;
-	font-family: "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-style: italic;
-}
+
 /* The Footer */
 #footer{
-	width: 923px;
+	width: 100%;
 	margin: 0 auto;
 }
-#footer a {
-	margin-top:-2px;
-	display: inline-block;
-	padding: 20px;
-}
-#footer a:hover {
-	background-image:url('img/arrow.png');	
-	background-position: center top;
-	background-repeat: no-repeat;
-}
-#footer_line{
-	height: 0px;
-	width: 100%;
-	border-top:1pt solid white;
-}
-#logo_midd{
-	float: left;
-	padding: 15px 10px 10px 10px;
-}
-#logo_nrel{
-	float: right;
-}
-#logo_doe{
-	float: right;
-}
-#logo_sd{
-	float: right;
-}
-.logo {
-}
-
-/* Pages */
-#primary{
-	margin-left: 0px;
-	margin-top: 20px;
-	width: 708px;
-	margin-bottom: 40px;
-	padding-top: 1px;
-}
-#primary.full-page {
-	margin-left: 0px;
-	margin-bottom: 40px;
-	width: auto;
-}
-#content{
-	position:relative;
-}
-#banner {
-	margin:20px auto;
-	width: 1265px;
-	height: 104px;
-	padding: 10px 0 0 0;
-	text-align: center;
-	display: block;
-}
-#banner h2{
-	padding-left: 30px;
-	margin: 0;
-	position: relative;
-	top: 25px;
-	color: white;
-	text-shadow: 1px 1px 5px black;
-}
-#page_left{
-	display: inline-block;
-	width:150px;
-	vertical-align: top;
-}
-#page_right{
-	width: 510px;
-	display: inline-block;
-}
-#page_row{
-	width: inherit;
-	display: block;
-}
-#content_header{
-	padding: 20px;
-	padding-left: 150px;
-	border-bottom: 1px solid gray;
-	width: 510px;
-
-}
-#content_header.team {
-	width: auto;
-	text-align: center;
-	padding: 20px;
-}
-/* Sponsor Logos */
-.sponsor_logo {
-	/*width: 200px;
-	height: 200px;
-	display: inline-block;*/
-}
-.sponsor_background:hover{
-	animation: sponsors .5s;
-	-moz-animation: sponsors .5s;
-	-webkit-animation: sponsors .5s;
-}
-
-/* Team Photo */
-#team-photos {
-	width: auto;
-}
-#team-description {
-	float: right;
-	display: none;
-}
-#team-description.bio-showing {
-	float: right;
-	display: block;
-	width: 280px;
-	padding:0 10px;
-}
-#team-photos.bio-showing {
-	width:690px;
-}
-#team-description-photo {
-	float: right;
-}
-#team-description-name {
-	border-top: 1pt solid #aaa;
-	font-weight: bold;
-	text-align: right;
-}
-#team-description-team {
-	text-align: right;
-	font-size: 12px;
-	font-style: italic;
-}
-#team-description-description {
-	font-size: 12px;
-}
-
-.team-member {
-	display: block;
-	float: left;
-	width: 102px;
-	height: 102px;
-	position: relative;
-}
-.team-photo {
-	position: absolute;
-	display: block;
-	width: 102px;
-	height: 102px;
-	margin: 0;
-	padding: 0;
-}
-.team-description {
-	display: none;
-}
-.team-text {
-	position: absolute;
-	z-index: 10;
-	background: rgba(0,0,0,.5);
-	color: white;
-	opacity: 0;
-	padding: 6px;
-	width: 90px;
-	height: 90px;
-	text-align: center;
-	transition: all .15s ease-in;
-	-webkit-transition: all .15s ease-in;
-	-moz-transition: all .15s ease-in;
-	-o-transition: all .15s ease-in;
-}
-.team-name {
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-}
-.team-subteam {
-	color: #dddddd;
-	display: block;
-	vertical-align: middle;
-	font-size: 12px;
-	font-style: italic;
-}
-.team-member:hover .team-text {
-	opacity: 1;
-}
-
-#sponsors {
-	width: auto;
-}
-
-.sponsor {
-	display: block;
-	float: left;
-	width: 100px;
-	height: 100px;
-	position: relative;
-	background: rgba(0,0,0,.7);
-	padding: 20px;
-	text-align: center;
-}
-a.sponsor:link,
-a.sponsor:visited {
-	color: white;
-	text-decoration: none;
-}
-
-
-/* Design Page */
-#design_header {
-	margin-left: auto;
-	margin-right: auto;
-	width: 400px;
-	text-align: center;
-}
-#design_links {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	padding-top: 20px;
-	padding-bottom: 15px;
-	margin-bottom: 40px;
-}
-#design_link{
-	float: left;
-	height: 100px;
-	width: 290px;
-	position: relative;
-	background-image: url('img/design/design.png');
-	background-position: center top;
-	background-repeat: no-repeat;
-}
-#materials_link{
-	float: right;
-	height: 100px;
-	width: 290px;
-	position: relative;
-	background-image: url('img/design/materials.png');
-	background-position: center top;
-	background-repeat: no-repeat;
-}
-#engineering_link{
-	display:block;
-	margin-right: auto;
-	margin-left: auto;
-	height: 100px;
-	width: 290px;
-	position: relative;
-	background-image: url('img/design/engineering.png');
-	background-position: center top;
-	background-repeat: no-repeat;
-}
-#design_link.design{
-	background-position-y: -100px;
-}
-#materials_link.design:hover{
-	background-position-y: -100px;
-}
-#engineering_link.design:hover{
-	background-position-y: -100px;
-}
-#design_link.engineering:hover{
-	background-position-y: -100px;
-}
-#materials_link.engineering:hover{
-	background-position-y: -100px;
-}
-#engineering_link.engineering{
-	background-position-y: -100px;
-}
-#design_link.materials:hover{
-	background-position-y: -100px;
-}
-#materials_link.materials{
-	background-position-y: -100px;
-}
-#engineering_link.materials:hover{
-	background-position-y: -100px;
-}
-#design_links.inline{
-	display: inline-block;
-}
-#design_left{
-	display: inline-block;
-	width: 300px;
-	margin-right: 20px;
-	padding-top: 20px;
-}
-#design_right{
-	width: 598px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 0px;
-	padding-top: 0px;
-}
-
-/* Contact Page */
-textarea {
-	width: 510px;
-	height: 120px;
-}
-button {
-	width: 80px;
-	height: 30px;
-	color: rgba(43, 144, 53, 1);
-	position:relative;
-	left: 436px;
-}
-
-/* Mission Page */
-#content.mission {
-	width: 820px;
-	text-align: center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	border: 2px solid rgba(43, 144, 53, 1);
-}
-#content.mission p {
-	font-size: 1.3em;
-	margin:30px;
-}
-
-/* Sidebar Stuff */
-#sm-list {
-	border-top: 1pt solid rgb(213,213,213);
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-.sm-item {
-	margin: 0;
-	padding: 0;
-	display: block;
-	border-bottom: 1pt solid rgb(213,213,213);
-	padding: 3px;
-}
-.sm-icon {
-	display: inline-block;
-	vertical-align: middle;
-	padding: 5px;
-}
-.sm-name {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.sm-item a {
-	text-decoration: none;
-	color: black;
-}
-.sm-item:hover {
-	background: #ddd;
-}
-#sidebar ul{
-	display: block;
-	margin-top: 20px;
-}
-
-
-
 
 
 
