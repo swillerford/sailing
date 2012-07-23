@@ -2,23 +2,18 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>InSite | Middlebury College</title>
+	<title>Middlebury College Sailing Club</title>
 	<meta name="author" content="" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css"> 	
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo("stylesheet_url"); ?>" media="all" />
-	
-	<script type="text/javascript" src="<?php bloginfo("stylesheet_directory"); ?>/libs/jquery.js" ></script>
-	<script type="text/javascript" src="<?php bloginfo("stylesheet_directory"); ?>/js/script.js" ></script>
-	<script type="text/javascript">
-	
-	</script>
+	<script type="text/javascript" src="<?php bloginfo("stylesheet_url"); ?>/js/script.js"></script>
 	<?php wp_head(); ?> 
 </head>
 <body <?php if(is_front_page()){ echo 'class="fp-body"';} ?>>
 	<div id="header">
-		<a href="/">
+		<a href="http://www.middsailing.com/">
 			<img src="<?php bloginfo("stylesheet_directory"); ?>/img/logo.png" id="logo">
 		</a>
 		<div id="main_nav">
@@ -42,4 +37,3 @@
 			</a>
 		</div><!-- main_nav -->
 	</div><!-- header -->
-	<img id="banner" src="<?php bloginfo("stylesheet_directory"); ?>/img/regatta_team.png"">

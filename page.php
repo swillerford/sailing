@@ -1,11 +1,17 @@
 <?php get_header(); ?>
 
-<img id="sb_news_img" src="<?php bloginfo("stylesheet_directory"); ?>/img/quick_facts.gif">
+<div id="slideshow">
+</div>
 
-	<div id="primary">
+<div id="content">
+
+	<?php get_sidebar(); ?>
+	
+	<div class="primary">
 		<?php while ( have_posts() ) : the_post(); ?>
 		<?php the_content(); ?>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- #primary -->
-	
+</div> <!-- Content -->
+
 <?php get_footer(); ?>
