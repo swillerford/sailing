@@ -143,6 +143,7 @@ a:active {
 h1 {
     font-size: 2em;
     margin: 0;
+    font-weight: normal;
 }
 
 h2 {
@@ -566,6 +567,7 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	background-color: rgb(36,23,17);
+	opacity: 0.97;
 }
 #logo{
 	margin-top: 10px;
@@ -617,6 +619,7 @@ body{
 }
 #content{
 	background-color: rgb(39,39,39);
+	opacity: 0.97;
 	margin: 0px;
 	overflow: auto;
 }
@@ -646,9 +649,19 @@ body{
 	float: left;
 	padding: 15px;
 }
+.alignright{
+	float: right;
+	padding: 5px 15px;
+}
 .alignnone{
 	float: none;
 	padding: 15px;
+}
+.aligncenter{
+	float: none;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .content_header{
 	font-size: 1.5em;
@@ -669,7 +682,29 @@ body{
 	margin: 15px;
 	width: 200px;
 }
-
+.list-header{
+	margin-left:0px;
+	padding-left:0px;
+	list-style-type:none;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+	padding-top: 25px;
+	list-style-image: none;
+}
+li {
+	list-style-image: url(img/list.png);
+}
+#calendar{
+	margin-top: 30px;
+}
+th, td{
+	padding: 5px 10px;
+	text-align: left;
+}
+.participants-database{
+	padding-top: 30px;
+}
 
 /* Slideshow Animations */
 @-webkit-keyframes slideshow{
@@ -792,6 +827,9 @@ body{
 	font-size: small;
 	padding-left: 25px;
 	border-top: 1pt solid rgb(68,96,107);
+}
+.sidebar a{
+	text-decoration: none;
 }
 .sidebar li:hover{
 	color: rgb(229,207,169);

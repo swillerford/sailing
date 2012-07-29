@@ -13,26 +13,26 @@
 </head>
 <body <?php if(is_front_page()){ echo 'class="fp-body"';} ?>>
 	<div id="header">
-		<a href="http://www.middsailing.com/">
+		<a href="<?php bloginfo('url'); ?>">
 			<img src="<?php bloginfo("stylesheet_directory"); ?>/img/logo.png" id="logo">
 		</a>
 		<div id="main_nav">
-			<a id="friends" class="nav-button" href="/friends">
+			<a id="friends" class="nav-button" href="<?php bloginfo('url'); ?>/friends">
 				Friends & Alumni
 			</a>
-			<a id="media" class="nav-button" href="/media">
+			<a id="media" class="nav-button" href="<?php bloginfo('url'); ?>/media">
 				Media
 			</a>
-			<a id="rec-pe" class="nav-button" href="/rec-pe">
+			<a id="rec-pe" class="nav-button" href="<?php bloginfo('url'); ?>/recpe">
 				Rec & PE
 			</a>
-			<a id="race" class="nav-button" href="/race">
+			<a id="race" class="nav-button" href="<?php bloginfo('url'); ?>/race">
 				Racing
 			</a>
-			<a id="about" class="nav-button" href="/about">
+			<a id="about" class="nav-button" href="<?php bloginfo('url'); ?>/club-overview">
 				About Us
 			</a>
-			<a id="news" class="nav-button" href="/news">
+			<a id="news" class="nav-button" href="<?php bloginfo('url'); ?>">
 				News
 			</a>
 		</div><!-- main_nav -->

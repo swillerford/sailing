@@ -1,10 +1,10 @@
 <div class="sidebar">
 	<ul>
-		<li>Team Resources</li>
-		<li>Calendar</li>
-		<li>Contact Us</li>
-		<li>Register</li>
-		<li  id="sidebar_bottom">Donate</li>
+		<a href="<?php bloginfo("url"); ?>/resources"><li>Team Resources</li></a>
+		<a href="<?php bloginfo("url"); ?>/calendar"><li>Calendar</li></a>
+		<a href="<?php bloginfo("url"); ?>/contact"><li>Contact Us</li></a>
+		<a href="<?php bloginfo("url"); ?>/register"><li>Register</li></a>
+		<a href="https://secure.www.alumniconnections.com/olc/pub/MDR/onlinegiving/showGivingForm.jsp?form_id=8525"><li  id="sidebar_bottom">Donate</li></a>
 	</ul>
 	<div id="board">
 		<b>Current Board Members</b>

@@ -1,7 +1,12 @@
+<?php
+/*
+Template Name: Rec/PE
+*/
+?>
+
 <?php get_header(); ?>
 
-<div id="slideshow">
-</div>
+<img id="banner" src="<?php bloginfo("stylesheet_directory") ;?>/img/banners/rec.jpg">
 
 <div id="content">
 
