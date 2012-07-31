@@ -17,19 +17,19 @@
 			<img src="<?php bloginfo("stylesheet_directory"); ?>/img/logo.png" id="logo">
 		</a>
 		<div id="main_nav">
-			<a id="friends" class="nav-button" href="<?php bloginfo('url'); ?>/friends">
+			<a id="friends" class="nav-button" href="<?php bloginfo('url'); ?>/friends/">
 				Friends & Alumni
 			</a>
-			<a id="media" class="nav-button" href="<?php bloginfo('url'); ?>/media">
+			<a id="media" class="nav-button" href="<?php bloginfo('url'); ?>/media/">
 				Media
 			</a>
-			<a id="rec-pe" class="nav-button" href="<?php bloginfo('url'); ?>/recpe">
+			<a id="rec-pe" class="nav-button" href="<?php bloginfo('url'); ?>/recpe/">
 				Rec & PE
 			</a>
-			<a id="race" class="nav-button" href="<?php bloginfo('url'); ?>/race">
+			<a id="race" class="nav-button" href="<?php bloginfo('url'); ?>/race/">
 				Racing
 			</a>
-			<a id="about" class="nav-button" href="<?php bloginfo('url'); ?>/club-overview">
+			<a id="about" class="nav-button" href="<?php bloginfo('url'); ?>/club-overview/">
 				About Us
 			</a>
 			<a id="news" class="nav-button" href="<?php bloginfo('url'); ?>">

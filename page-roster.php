@@ -16,8 +16,8 @@ Template Name: Roster
 	<div class="primary">
 		
 		<a href="<?php bloginfo("url"); ?>/race"><div class="content_header">Overview</div></a>
-		<a href="<?php bloginfo("url"); ?>/roster"><div class="content_header" id="active">Roster</div></a>
-		<a href="<?php bloginfo("url"); ?>/calendar"><div class="content_header">Calendar</div></a>
+		<a href="<?php bloginfo("url"); ?>/race/roster"><div class="content_header" id="active">Roster</div></a>
+		<a href="<?php bloginfo("url"); ?>/race/calendar"><div class="content_header">Calendar</div></a>
 		
 		<?php while(have_posts()):the_post(); ?>
 		<?php the_content();?>

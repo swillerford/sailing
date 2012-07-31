@@ -4,10 +4,11 @@
 		<a href="<?php bloginfo("url"); ?>/calendar"><li>Calendar</li></a>
 		<a href="<?php bloginfo("url"); ?>/contact"><li>Contact Us</li></a>
 		<a href="<?php bloginfo("url"); ?>/register"><li>Register</li></a>
-		<a href="https://secure.www.alumniconnections.com/olc/pub/MDR/onlinegiving/showGivingForm.jsp?form_id=8525"><li  id="sidebar_bottom">Donate</li></a>
+		<a href="https://secure.www.alumniconnections.com/olc/pub/MDR/onlinegiving/showGivingForm.jsp?form_id=8525" target="_blank"><li  id="sidebar_bottom">Donate</li></a>
 	</ul>
 	<div id="board">
 		<b>Current Board Members</b>
+		<div class="sidebar-divider"></div>
 		<p>
 			<b>Commodore</b></br>
 			Sean Willerford

@@ -616,6 +616,8 @@ body{
 	margin-bottom: 15px;
 	padding-right: 15px;
 	font-size: 0.8em;
+	min-height: 550px;
+	position: relative;
 }
 #content{
 	background-color: rgb(39,39,39);
@@ -705,7 +707,23 @@ th, td{
 .participants-database{
 	padding-top: 30px;
 }
-
+#donate_button{
+	width: 180px;
+	height: 50px;
+	background-image: url(img/donate_button_up.jpg);
+	float: right;
+	margin: 15px;
+}
+#donate_button:hover{
+	background-image: url(img/donate_button_over.jpg);
+}
+#donate_button:active{
+	background-image: url(img/donate_button_down.jpg);
+}
+#gallery-1{
+	width: 500px;
+	float: left;
+}
 /* Slideshow Animations */
 @-webkit-keyframes slideshow{
 	0% {opacity: 1;background-position: 0px 0px;}
@@ -826,7 +844,6 @@ th, td{
 	font-weight: bold;
 	font-size: small;
 	padding-left: 25px;
-	border-top: 1pt solid rgb(68,96,107);
 }
 .sidebar a{
 	text-decoration: none;
@@ -838,13 +855,34 @@ th, td{
 	border-bottom: 1pt solid rgb(68,96,107);
 }
 #board{
-	padding: 10px;
+	position: relative;
+	padding: 11px;
 	margin: 15px;
 	font-size: 0.8em;
 	background: rgb(51,51,51) url(img/sails.gif) bottom right no-repeat;
 }
 #board p{
 	font-size: 0.9em;
+}
+.sidebar-divider{
+	width: auto;
+	height: 0px;
+	border-top: 1pt dotted rgb(67,95,106);
+	margin-top: 5px;
+}
+.sidebar_right{
+	padding: 11px;
+	margin: 15px;
+	font-size: 0.8em;
+	background: rgb(51,51,51) url(img/sails.gif) bottom right no-repeat;
+	width: 150px;
+}
+.sidebar_right p{
+	font-size: 0.9em;
+}
+.sidebar_right_container{
+	width: 200px;
+	float: right;
 }
 
 
