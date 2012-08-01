@@ -32,4 +32,4 @@ $height = $_GET['height'];
 
 echo "$width x $height";
 }
-?> 
+?>

@@ -19,9 +19,25 @@ Template Name: Roster
 		<a href="<?php bloginfo("url"); ?>/race/roster"><div class="content_header" id="active">Roster</div></a>
 		<a href="<?php bloginfo("url"); ?>/race/calendar"><div class="content_header">Calendar</div></a>
 		
-		<?php while(have_posts()):the_post(); ?>
-		<?php the_content();?>
-		<?php endwhile; ?>
+		<?php
+		$year=date("Y");
+		$todays_date=date("Y-m-d");
+		$today=strtotime($todays_date);
+		$grad=strtotime($year-06-31);
+		$febgrad=strtotime($year-02-07);
+		$start=strtotime($year-09-01);
+		if ($today>$grad){
+			$alums=$year+0.1;
+		}
+		elseif($today>$febgrad & $today<$grad){
+			$alums=$year-0.3;
+		}
+		else{
+			$alums=$year-0.9;
+		};
+		echo do_shortcode('[pdb_list filter="class>'.$alums.'"]');
+		?>
+
 	</div><!-- #primary -->
 </div> <!-- Content -->
 
