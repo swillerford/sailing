@@ -6,7 +6,6 @@
 	<meta name="author" content="" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-	<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css"> 	
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo("stylesheet_url"); ?>" media="all" />
 	<script type="text/javascript" src="<?php bloginfo("stylesheet_url"); ?>/js/script.js"></script>
 	<?php wp_head(); ?> 

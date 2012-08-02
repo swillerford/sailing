@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 
 <div id="slideshow">
+	<a href="<?php bloginfo('url'); ?>/friends/" class="slideshow_image" id="banner1"></a>
+	<a href="<?php bloginfo('url'); ?>/recpe/" class="slideshow_image" id="banner2"></a>
+	<a href="<?php bloginfo('url'); ?>/race/" class="slideshow_image" id="banner3"></a>
 </div>
 
 <div id="content">
