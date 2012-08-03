@@ -545,8 +545,6 @@ html{
 }
 body { 
 	width: 1000px;
-	margin: 0;
-	padding: 0;
 	font-family: "Helvetica Neue", sans-serif;
 	color: white;
 	background: url(img/bg.png) fixed center top no-repeat;
@@ -695,7 +693,7 @@ body{
 	font-size: 1.5em;
 	background: rgb(51,51,51);
 	padding: 10px;
-	width: 140px;
+	width: 160px;
 	text-align: center;
 	display: inline-block;
 }
@@ -723,9 +721,6 @@ body{
 li {
 	list-style-image: url(img/list.png);
 }
-#calendar{
-	margin-top: 30px;
-}
 th, td{
 	padding: 5px 10px;
 	text-align: left;
@@ -750,6 +745,15 @@ th, td{
 	width: 570px;
 	float: left;
 }
+#calendar{
+	width: 520px;
+	position: relative;
+	padding-top: 15px;
+}
+.timely{
+	float: left;
+}
+
 /* Loop */
 #loop_header {
 	margin-left: 125px;
@@ -847,7 +851,15 @@ th, td{
 .sidebar_right_container{
 	width: 200px;
 	float: right;
-}
+
+
+
+
+
+
+
+
+
 
 
 
