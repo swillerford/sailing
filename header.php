@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Middlebury College Sailing Club</title>
+	<title><?php wp_title()?> – <?php bloginfo('name');?></title>
 	<meta name="author" content="" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />

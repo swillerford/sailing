@@ -643,6 +643,9 @@ body{
 	min-height: 550px;
 	position: relative;
 }
+#primary_media.primary{
+	width: 575px;
+}
 #content{
 	background-color: rgb(39,39,39);
 	opacity: 0.97;
@@ -766,6 +769,10 @@ th, td{
 .post {
 	border-top: 1pt solid rgb(68,96,107);
 	padding-top: 10px;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 15px;
+	font-size: 1.2em;
 }
 .post_author{
 	float: left;

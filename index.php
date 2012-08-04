@@ -32,6 +32,9 @@
 			<?php else: ?>
 			<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 			<?php endif; ?>
+			<?php if(function_exists('wp_paginate')) {
+				wp_paginate();
+				} ?>
 		</div><!-- Posts -->
 	</div> <!-- Primary -->
 </div> <!-- Content -->
